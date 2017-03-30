@@ -110,6 +110,7 @@ public class FirstYear extends Student implements Examiner  {
 	// gives result pass or not
 	@Override
 	public int result() {
+		if(marks1>=35 && marks2>=35){
 			System.out.println(" Passed ");
 		
 		}else{
